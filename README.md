@@ -9,6 +9,7 @@ Use the package manager [npm](https://www.npmjs.com/) to install st-scraper.
 
 ```bash
 npm install st-scraper
+//returns array
 ```
 
 ## Usage
