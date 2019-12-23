@@ -1,5 +1,5 @@
 {
-  "name": "@zacharylimjx/st-scraper",
+  "name": "st-scraper",
   "version": "1.0.0",
   "description": "Easy scraper for straits times articles",
   "main": "index.js",
