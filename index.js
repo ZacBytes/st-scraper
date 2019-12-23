@@ -2,7 +2,7 @@ const cheerio = require('cheerio');
 const request = require('request');
 const validUrl = require('valid-url');
 
-exports.ScrapeArticle = function (articleURL) {
+module.exports.ScrapeArticle = function (articleURL) {
 	if (validUrl.isUri(articleURL)){
 		//Proceed with scraping
 
@@ -32,3 +32,5 @@ exports.ScrapeArticle = function (articleURL) {
 		console.error('error', "Invalid articleURL provided to ScrapeArticle function");
 	}
   };
+
+  
