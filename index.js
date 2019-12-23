@@ -9,17 +9,17 @@ exports.ScrapeArticle = function (articleURL) {
 		request(articleURL, function (error, response, body) {
 		
 			if (err) return console.error(err);
-			let $ = cheerio.load(body);
+			let scraped = cheerio.load(body);
       
 
-     		var title = $('h1.headline.node-title').text()
-     		var img = $('img.img-responsive').attr('src')
-      		var imgcaption = $('span.caption-text').text()
+     		var title = scraped('h1.headline.node-title').text()
+     		var img = scraped('img.img-responsive').attr('src')
+      		var imgcaption = scraped('span.caption-text').text()
       
 			var text = "";
 			  
-     	 	$("div.odd.field-item").each(function(i, item){
-      			text += ($("p", item).text())
+     	 	scraped("div.odd.field-item").each(function(i, item){
+      			text += (scraped("p", item).text())
       		});
       
     		return [title, text, img, imgcaption];
