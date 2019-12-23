@@ -1,0 +1,29 @@
+{
+  "name": "st-scraper",
+  "version": "1.0.0",
+  "description": "Easy scraper for straits times articles",
+  "main": "st-scraper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sg",
+    "singapore",
+    "st",
+    "straits times",
+    "scraper",
+    "news",
+    "article"
+  ],
+  "author": "Zachary Lim <zacharylimjx@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "valid-url": "^1.0.9",
+    "request": "^2.88.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZacBytes/Straits-Times-Scraper"
+  }
+}
