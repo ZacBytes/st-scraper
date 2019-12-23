@@ -6,10 +6,7 @@ exports.ScrapeArticle = function (articleURL) {
 	if (validUrl.isUri(articleURL)){
 		//Proceed with scraping
 
-		request({
-			method: 'GET',
-			url: articleURL
-		}, (err, res, body) => {
+		request(articleURL, function (error, response, body) {
 		
 			if (err) return console.error(err);
 			let $ = cheerio.load(body);
