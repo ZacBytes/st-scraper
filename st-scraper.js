@@ -8,7 +8,7 @@ exports.ScrapeArticle = function (articleURL) {
 
 		request({
 			method: 'GET',
-			url: 'https://www.straitstimes.com/singapore/courts-crime/former-changi-airport-employee-charged-after-receiving-more-than-200000-in'
+			url: articleURL
 		}, (err, res, body) => {
 		
 			if (err) return console.error(err);
