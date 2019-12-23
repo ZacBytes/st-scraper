@@ -9,14 +9,13 @@ Use the package manager [npm](https://www.npmjs.com/) to install st-scraper.
 
 ```bash
 npm install st-scraper
-//returns array
 ```
 
 ## Usage
 
 ```node_js
 const stscrape = require('st-scraper');
-console.log(stscrape.ScrapeArticle('STRAITS TIMES ARTICLE URL HERE'))
+console.log(stscrape.ScrapeArticle('STRAITS TIMES ARTICLE URL HERE')) //returns array
 ```
 
 ## Contributing
