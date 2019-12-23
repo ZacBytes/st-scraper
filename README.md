@@ -16,8 +16,6 @@ npm install st-scraper
 ```node_js
 const stscrape = require('st-scraper');
 console.log(stscrape.ScrapeArticle('STRAITS TIMES ARTICLE URL HERE'))
-
-
 ```
 
 ## Contributing
