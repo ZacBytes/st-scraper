@@ -1,10 +1,10 @@
 {
-  "name": "st-scraper",
+  "name": "@zacharylimjx/st-scraper",
   "version": "1.0.0",
   "description": "Easy scraper for straits times articles",
-  "main": "st-scraper.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node index.js"
   },
   "keywords": [
     "sg",
@@ -24,6 +24,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ZacBytes/Straits-Times-Scraper"
-  }
+    "url": "git+https://github.com/ZacBytes/Straits-Times-Scraper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ZacBytes/Straits-Times-Scraper/issues"
+  },
+  "homepage": "https://github.com/ZacBytes/Straits-Times-Scraper#readme"
 }
