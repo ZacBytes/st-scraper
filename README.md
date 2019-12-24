@@ -16,7 +16,7 @@ npm install st-scraper
 ```node_js
 const stscrape = require('st-scraper');
 
-stscrape.ScrapeArticle('https://www.straitstimes.com/singapore/courts-crime/former-changi-airport-employee-charged-after-receiving-more-than-200000-in', function(err, ArticleData){
+stscrape.ScrapeArticle('STRAITS TIMES ARTICLE URL HERE', function(err, ArticleData){
    console.log(ArticleData) //logs entire article data object
    console.log(ArticleData.title) //logs article title
 });
