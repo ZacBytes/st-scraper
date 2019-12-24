@@ -8,7 +8,7 @@ module.exports.ScrapeArticle = function (articleURL) {
 
 		request(articleURL, function (error, response, body) {
 		
-			if (err) return console.error(err);
+			if (error) return console.error(error);
 			const $ = cheerio.load(body);
       
 
