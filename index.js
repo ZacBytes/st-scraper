@@ -12,11 +12,11 @@ stscraper.prototype.ScrapeArticle = function (articleURL, callback) {
 			if (error) return console.error(error);
 			const $ = cheerio.load(body);
 
-     		let title = $('h1.headline.node-title').text();
-     		let img = $('img.img-responsive').attr('src');
-			let imgcaption = $('span.caption-text').text();
+     		var title = $('h1.headline.node-title').text();
+     		var img = $('img.img-responsive').attr('src');
+		var imgcaption = $('span.caption-text').text();
 			 
-			let text = "";
+		var text = "";
      	 	$("div.odd.field-item").each(function(i, item){
       			text += ($("p", item).text())
       		});
