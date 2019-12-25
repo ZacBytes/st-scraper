@@ -1,5 +1,5 @@
 # ST-Scraper
-[![Build Status](https://travis-ci.com/ZacBytes/Straits-Times-Scraper.svg?branch=master)](https://travis-ci.com/ZacBytes/Straits-Times-Scraper)
+[![Build Status](https://travis-ci.com/ZacBytes/st-scraper.svg?branch=master)](https://travis-ci.com/ZacBytes/st-scraper)
 
 Easy to use node_js scraper for straits times articles. Does not support premium articles
 
