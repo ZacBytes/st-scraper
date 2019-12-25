@@ -18,9 +18,14 @@ const stscrape = require('st-scraper');
 
 stscrape.ScrapeArticle('STRAITS TIMES ARTICLE URL HERE', function(err, ArticleData){
    console.log(ArticleData) //logs entire article data object
-   console.log(ArticleData.title) //logs article title
-});
 
+   console.log(ArticleData.title) //logs article title
+   console.log(ArticleData.text) //logs article text
+   console.log(ArticleData.postdate) //logs article post date
+   console.log(ArticleData.img) //logs image source
+   console.log(ArticleData.imgcaption) //logs article image caption
+   console.log(ArticleData.author) //logs article author
+});
 ```
 
 ## Contributing
