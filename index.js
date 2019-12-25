@@ -17,7 +17,7 @@ stscraper.prototype.ScrapeArticle = function (articleURL, callback) {
      		var img = $('img.img-responsive').attr('src');
 			var imgcaption = $('span.caption-text').text();
 			var postdate = $('div.story-postdate').text()
-			var author = $('div.author-field.author-name').find('a').attr('href')
+			var author = $('div.author-field.author-name').find('a').text();
 
 			var text = "";
      	 	$("div.odd.field-item").each(function(i, item){
