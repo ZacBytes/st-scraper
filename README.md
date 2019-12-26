@@ -1,7 +1,7 @@
 # ST-Scraper
 [![Build Status](https://travis-ci.com/ZacBytes/st-scraper.svg?branch=master)](https://travis-ci.com/ZacBytes/st-scraper)
 
-Easy to use node_js scraper for straits times article.
+Easy to use js scraper for straits times article.
 
 ## Installation
 
